@@ -3,8 +3,11 @@ This project delved into the world of Netflix shows, using text clustering techn
 Content Treasure Trove: I Dived into a dataset of 7,787 records, each described by 11 informative attributes.
 Data prep & exploration: Our journey began by cleaning the data and performing EDA to get a feel for the Netflix shows and Movies.
 Netflix Unveiled: Movies Reign, Shows on the Rise! :Data reveals Netflix boasts more movies, with new shows rapidly joining the party. Interestingly, US-made content dominates the show selection.
+
 Untangling the Netflix Universe: To group similar shows together, I focused on key attributes like cast, genre, and director. Then, a special technique called TF-IDF transformed these details into numerical data, making it easier for our analysis to reveal hidden connections.
 Unveiling the Show Similarities: A TF-IDF Adventure!: While TF-IDF initially created a massive web of 10,000 features to capture the show descriptions, we encountered the "curse of dimensionality." To combat this, I employed Principal Component Analysis (PCA), a clever technique that identified the most important features. Remarkably, just 3,000 components were able to hold onto over 80% of the information! By focusing on these key elements, I streamlined the data and empowered our analysis to find hidden relationships between these fascinating Netflix shows.
+
 Finding the Perfect Fit: K-Means Unveils 6 Show Clusters: To group shows with similar characteristics, I used K-Means clustering. But how many clusters? By analyzing the "elbow method" and "Silhouette score," I discovered 6 clusters provided the most optimal fit for organizing the Netflix shows!
 Branching Out - Unveiling 7 Show Groups with Hierarchical Clustering: I also explored hierarchical clustering to discover natural groupings. By examining the branching structure of the dendrogram, I identified 7 optimal clusters, offering an alternative lens into the Netflix show landscape.
+
 Finding Your Next Binge - Unveiling a Content-Based Recommendation System!: I built a recommendation system that understands shows! It uses a technique called "cosine similarity" to analyze show descriptions and recommend 10 similar options based on what you've watched before. Get ready to discover hidden gems you'll love!# Netflix-Movies-And-TV-Shows-Capstone-Project
